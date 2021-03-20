@@ -1,10 +1,14 @@
 import "../css/styles.css";
-// import { PopUp } from "./_modules-js/_annoying-alert.js";
-import { selfmultiply } from './_modules-js/_squared.js';
-console.log("Welcome!");
-console.log(selfmultiply(11));
 
-// PopUp();
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import App from './App.js';
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('root')
+  );
 
 if (module.hot) {
     module.hot.accept()
